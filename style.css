@@ -256,6 +256,14 @@ body {
   animation: flower-fall-down-purple 6s 1.2s linear forwards, flower-falling 6s 7.2s linear infinite;
 }
 
+.writing {
+  transform: translateY(-700px);
+  color: #001d6b;
+  position: absolute;
+  visibility: hidden;
+  font-size: 5em;
+}
+
 @keyframes open-flower {
   0% {
     transform: translateX(-50%) rotate(0);
