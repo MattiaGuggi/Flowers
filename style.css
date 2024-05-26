@@ -265,6 +265,14 @@ body {
   font-size: 5em;
 }
 
+.button-wrapper canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
 @keyframes open-flower {
   0% {
     transform: translateX(-50%) rotate(0);
